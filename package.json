@@ -1,0 +1,20 @@
+{
+  "name": "aws-dynamodb-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx vite-node src/index.ts"
+  },
+  "author": "navopw",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.4.1",
+    "aws-sdk": "^2.1413.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.7"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
